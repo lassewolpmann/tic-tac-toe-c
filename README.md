@@ -1,11 +1,14 @@
 # Simple tic-tac-toe game written in C
 ## Build instructions
 ```shell
-cmake --build build/
+mkdir build
+cd build/
+cmake ../
 ```
 
 ## Run instructions
 ```shell
+cmake --build build/
 build/tic_tac_toe
 ```
 The command expects one argument for the player symbol. Valid input is either x or o.
